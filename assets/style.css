@@ -20,6 +20,11 @@ h2 {
     color: #184f63; /* dark-blue */
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* About section */
 
 #about {
@@ -55,7 +60,7 @@ h2 {
 
 #hero {
     background-color: #dbdcde; /* light grey */
-    background-image: url("assets/images/background.webp");
+    background-image: url("https://codeinstitute.s3.eu-west-1.amazonaws.com/Bootstrap/background.webp");
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
